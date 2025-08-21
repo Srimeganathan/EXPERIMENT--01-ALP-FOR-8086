@@ -1,7 +1,7 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+EXPERIMENT  01  ALP on fundamental arithmetic and logical operations 8086
+Name :Srimeganathan S
+Roll no 212224230273
+Date of experiment : 21.08.2025
 
 
 
@@ -76,27 +76,78 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 ## Programs for arithmetic  operations
+~~~
+org 100h
 
-## Addition  of 8 bit ALP 
+mov AX,4325H
+mov BX,2233H
+
+add AX,BX  
+mov [2000H],AX
+mov AX,4325H 
+
+sub AX,BX
+mov [2002H],AX
+mov AX,4325H
+mov CX,2525H
+
+mul CX
+mov [2004H],AX
+mov AX,2325H
+mov CL,05H
+
+div CL
+mov [2006H],AX
 
 
-
-## Output  
- 
-## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+ret
+~~~
+org 100h        
 
 
-## Division alp 
+MOV [4000H],0FABH
+MOV [4002H],1122H
+MOV AX,[4000H]
+MOV BX,[4002H]
+AND AX,BX
+MOV [4040H],AX
 
-## Output  
+MOV [4010H],334BH
+MOV [4012H],1122H
+MOV AX,[4010H]
+MOV BX,[4012H]
+OR AX,BX
+MOV [4042H],AX 
 
+MOV [4020H],3345H
+MOV [4022H],8822H
+MOV AX,[4020H]  
+MOV BX,[4022H]
+XOR AX,BX
+MOV [4044H],AX
+
+MOV [4038H],3345H
+MOV [4031H],8822H
+MOV AX,[4038H]  
+MOV BX,[4031H]
+NOT AX
+MOV [4046H],AX
+     
+RET
+~~~
+
+
+~~~
+## Output
+
+
+<img width="1919" height="1137" alt="Screenshot 2025-08-21 093451" src="https://github.com/user-attachments/assets/ecd737b5-615e-4671-8429-d02831f40fcb" />
+
+
+<img width="1917" height="1139" alt="Screenshot 2025-08-21 094829" src="https://github.com/user-attachments/assets/42827919-a8f8-4827-8130-125957f3f8a1" />
 
 ## Result :
- 
+ The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 
