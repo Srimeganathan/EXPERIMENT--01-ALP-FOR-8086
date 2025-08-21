@@ -1,7 +1,10 @@
 **##EXPERIMENT  01  ALP on fundamental arithmetic and logical operations 8086**
-##Name :Srimeganathan S
-##Roll no 212224230273
-##Date of experiment : 21.08.2025
+
+Name :Srimeganathan S
+
+Roll no 212224230273
+
+Date of experiment : 21.08.2025
 
 
 
